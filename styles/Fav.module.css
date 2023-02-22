@@ -1,0 +1,22 @@
+.product_list {
+    display: grid;
+    /* margin: 0 auto; */
+    grid-template-columns: repeat(3, 1fr); /* setiap baris terdiri dari 4 kolom yang sama lebar */
+    grid-gap: 25px; /* jarak antar card */
+    /* border: 2px solid red; */
+    margin: 10px 10px;
+  }
+  
+  .img {
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 200px; */
+  }
+  
+  .hr {
+    width: 50%;
+    /* padding: 20px; */
+    margin: 20px auto;
+    border: 1px solid;
+    /* font-size: 25px; */
+  }

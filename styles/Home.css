@@ -1,0 +1,35 @@
+img {
+    max-width: 100%;
+    height: auto;
+    /* margin-top: 200px; */
+}
+
+.text {
+        width: 35%;
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        color: #F7F7F7;
+        font-size: 4rem;
+        /* border: 1px solid red; */
+        font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            /* -webkit-text-stroke: 1px #1A1A1A;
+        text-stroke: 1px #1A1A1A;
+           */
+          float: left;
+      }
+.message {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;    
+    padding: 25px;
+    /* text-align: center; */
+    /* border: 5px solid yellow; */
+}
+
+
