@@ -40,3 +40,42 @@
   /* border: 2px solid red; */
   margin: 0 10px;
 }
+
+
+/* styles for screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+  .text {
+    width: 70%;
+    top: 4rem;
+    font-size: 2rem;
+    text-align: left;
+    left: 45%;
+    font-size: 40px;
+    transform: translateX(-50%);
+  }
+  .message {
+    font-size: 20px;
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+  
+  .product_list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* styles for screens larger than 768px */
+@media only screen and (min-width: 768px) {
+  .text {
+    width: 35%;
+    font-size: 4rem;
+    text-align: left;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .product_list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

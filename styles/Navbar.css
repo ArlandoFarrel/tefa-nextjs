@@ -99,3 +99,90 @@ body {
     text-decoration-color: #1A1A1A;
   }
 
+  .menu_toggle {
+    /* border: 20px solid red; */
+    display: none;
+  }
+  /* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .menu_toggle {
+    display: flex;
+    width: 25%;
+    float: right;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 35px;
+    color: #F7F7F7;
+    /* margin-bottom: 10px; */
+    cursor: pointer;
+    /* border: 1px solid red; */
+  
+  }
+  .nav_wrapper {
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .nav_wrapper .nav_logo {
+    width: 30%;
+  }
+
+  .nav_list {
+    display: none;
+  }
+
+  .nav_list.active {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #1A1A1A;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  .nav_list li {
+    display: block;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .menu_item {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .menu_item a {
+    display: block;
+    padding: 10px;
+    color: #F7F7F7;
+  }
+
+  .menu_item.scrolled a {
+    color: #1A1A1A;
+  }
+
+  .menu_item:hover {
+    background-color: #F7F7F7;
+    color: #1A1A1A;
+  }
+
+  .menu_item:hover a {
+    color: #1A1A1A;
+  }
+
+  .menu_item.scrolled:hover {
+    background-color: #F7F7F7;
+    color: #1A1A1A;
+  }
+
+  .menu_item.scrolled:hover a {
+    color: #1A1A1A;
+  }
+}
+

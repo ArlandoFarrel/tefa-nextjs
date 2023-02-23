@@ -6,6 +6,8 @@ import styles from '@/styles/ProductCard.module.css'
 function ProductCard({ product }) {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
       {/* <div className={styles.product_list}> */}
     <div className={styles.product_card}>
       <div className={styles.product_card_image}>

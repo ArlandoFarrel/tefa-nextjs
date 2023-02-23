@@ -3,9 +3,17 @@ import React, { useEffect, useState } from 'react'
 // import '@/styles/Navbar.css'
 // import { NavLink } from 'react_dom'
 import Link from 'next/link'
+import { GiHamburgerMenu } from 'react-icons/gi'
+import Sidebar from './Sidebar'
 
 export default function Navbar() {
 
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+    console.log(nav);
+  }
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -45,7 +53,14 @@ export default function Navbar() {
         <li><NavLink to="/Karya" className={({ isActive }) => (isActive ? 'link_active' : 'link')}>Karya</NavLink></li>
         <li><NavLink to="/Contact" className={({ isActive }) => (isActive ? 'link_active' : 'link')}>Contact</NavLink></li> */}
         </ul>
+        <div className="menu_toggle">
+        <a onClick={() => handleNav()}>
+         <GiHamburgerMenu/>
+        </a>
       </div>
+      </div>
+      
+      {nav ? <Sidebar /> : ''}
     </div>
   )
 }
