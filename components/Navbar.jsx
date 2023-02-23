@@ -53,7 +53,7 @@ export default function Navbar() {
         <li><NavLink to="/Karya" className={({ isActive }) => (isActive ? 'link_active' : 'link')}>Karya</NavLink></li>
         <li><NavLink to="/Contact" className={({ isActive }) => (isActive ? 'link_active' : 'link')}>Contact</NavLink></li> */}
         </ul>
-        <div className="menu_toggle">
+        <div className={`menu_toggle ${scrolled ? 'scrolled' : ''}`}>
         <a onClick={() => handleNav()}>
          <GiHamburgerMenu/>
         </a>
