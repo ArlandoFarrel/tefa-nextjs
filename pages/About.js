@@ -22,18 +22,18 @@ export default function About() {
         </h2>
         <div className={styles.main_service}>
           <p>
-            Maternal Disaster is a gripping and unconventional clothing brand based in Bandung since 2003. Represents not only a more refined and forward-thinking brand, we reflect our each issues like a musical albums and every articles is like a song we write.
+            lokal is a gripping and unconventional clothing brand based in Bandung since 2003. Represents not only a more refined and forward-thinking brand, we reflect our each issues like a musical albums and every articles is like a song we write.
 
-            Driven by the dream-quest of demon force that bore black mass hysteria, a carnal beast, living in a cosmos that is indifferent to our existence. Maternal Disaster is dangerous flame of brand that seemed lost for many years and that now once again has been set loose upon everyday society & to decipher the world objectively.
+            Driven by the dream-quest of demon force that bore black mass hysteria, a carnal beast, living in a cosmos that is indifferent to our existence. lokal is dangerous flame of brand that seemed lost for many years and that now once again has been set loose upon everyday society & to decipher the world objectively.
 
           </p>
           <p> Four young devils were brought together by our passion for music.
               Our first love has always been and will always be music,
               we try to give back to our roots through the products and opportunities we 
               provide through the company. We remains extremely involved in the production 
-              and direction of Maternal Disaster, maintaining the respect over communities 
+              and direction of lokal, maintaining the respect over communities 
               we continue to support our friends, which helps us fuel and inspire our original vision. 
-              Our goal for Maternal Disaster is to evoke emotions then create topics of discussion through our designs and boldly stated our idea at the hand of youth culture.</p>
+              Our goal for lokal is to evoke emotions then create topics of discussion through our designs and boldly stated our idea at the hand of youth culture.</p>
         </div>
       </div>
       <Footer />
