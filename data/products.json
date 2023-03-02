@@ -1,44 +1,81 @@
 [
     {
       "id": 1,
-      "name": "Glaz",
+      "name": "Maternal Disaster Figs Disarray",
       "description": "Description for Product 1",
       "price": 40,
-      "image": "assets/img/news.jpg"
+      "image": "/assets/img/news.jpg",
+      "type": "normal",
+      "stock": 40,
+      "images": [
+        "/assets/img/product1-1.jpg",
+        "/assets/img/product1-2.jpg",
+        "/assets/img/product1-3.jpg"
+      ],
+      "sizes": ["S", "M", "L", "XL"],
+      "alias": "Figs"
+      
     },
     {
       "id": 2,
-      "name": "Bomber",
-      "description": "Description for Product 2",
+      "name": "Maternal Disaster Surface Disarray",
+      "description": "Brown corduroy windbreaker jacket with white direct embroidery and antique brass zipper.",
       "price": 70,
-      "image": "assets/img/new.jpg"
+      "image": "/assets/img/new.jpg",
+      "type": "best",
+      "stock": 80,
+      "sizes": ["S", "M", "L", "XL"],
+      "alias": "Surface"
     },
     {
       "id": 3,
-      "name": "Green Cargo Pants",
+      "name": "Erigo Coach Jacket Marine Corps Asphalt",
       "description": "Description for Product 3",
       "price": 100,
-      "image": "assets/img/cargo.png"
+      "image": "/assets/img/coacherigo.jpg ",
+      "type": "normal",
+      "stock": 70,
+      "sizes": ["S", "M", "L", "XL"],
+      "alias": "Asphalt"
+    
     },
     {
       "id": 4,
-      "name": "'Just' Black Hoodie",
+      "name": "Erigo T-Shirt Oversizes Basic Pocket Dark Color",
       "description": "Description for Product 2",
       "price": 30,
-      "image": "assets/img/hoodie.png"
+      "image": "/assets/img/tshirter.jpg",
+      "type": "normal",
+      "stock": 50,
+      "sizes": ["S", "M", "L", "XL"],
+      "alias": "Pocket Dark"
     },
     {
       "id": 5,
-      "name": "Black Cap 'Just' Series",
+      "name": "Roughneck Green Varsity",
       "description": "Description for Product 2",
       "price": 20,
-      "image": "assets/img/basebal.png"
+      "image": "/assets/img/varsity1.png",
+      "type": "normal",
+      "stock": 250,
+      "sizes": {
+        "1": "S",
+        "2": "M",
+        "3": "L",
+        "4": "XL",
+        "5": "XXL"
+      },
+      "alias": "GVarsity"
     },
     {
       "id": 6,
-      "name": "Country Road Jacket",
-      "description": "Description for Product 2",
+      "name": "Maternal Disaster Noxious Violencognito",
+      "description": "High quality black genuine goat leather motorcycle jacket with red satin lining and silver color zipper. Free woven patch, jacket cover and Maternal member card.",
       "price": 120,
-      "image": "assets/img/jkt.jpg"
+      "image": "/assets/img/jkt.jpg",
+      "type": "best",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "alias": "Noxious",
+      "stock": 20
     }
   ]

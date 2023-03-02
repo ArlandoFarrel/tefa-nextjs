@@ -1,0 +1,137 @@
+.detailWrapper {
+    margin-top: 10rem;
+    border: 2px solid red;
+    display: flex;
+}
+.detailImg {
+    border: 1px solid blue;
+}
+.detailDesc {
+    border: 1px solid;
+    width: 35%;
+    padding: 10px;
+    display: block;
+    /* float: right; */
+    clear: both; /* tambahkan clear: both */
+}
+
+
+
+.detailDesc h1 {
+    border: 1px solid;
+    width: 50%;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.detailDesc p {
+    width: 100%;
+    
+    font-size: 12px;
+}
+
+.hr {
+    margin: 1.5rem 0;
+}
+
+.counter {
+    margin: 20px  0;
+    
+    font-size: 1rem;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.mainCounter {
+    /* border: 1px solid #1A1A1A; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideCounter {
+    margin-bottom: 10px;
+}
+
+.button {
+
+  /* border: 1px solid #1A1A1A; */
+  color: #1A1A1A; /* warna teks putih */
+  padding: 5px 10px; 
+  /* text-align: center; */
+  text-decoration: none;
+  /* display: inline-block; */
+  /* font-size: 16px; ukuran font 16px */
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.dropdown {
+    margin: 10px 0;
+    align-items: center;
+    /* margin-top: 0.5rem; */
+    /* border: 1px solid; */
+  }
+  
+ .size {
+    margin-bottom: 10px;
+ }
+  
+  .selectS {
+    width: 150px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #1A1A1A;
+    /* border-radius: 4px; */
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .dropdownControl {
+    /* border: none;
+    box-shadow: none; */
+    padding: 0;
+
+    background-color: transparent;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    /* width: 100%; */
+    z-index: 10;
+    margin-top: 0.5rem;
+    border: 1px solid #1A1A1A;
+    /* border-radius: 4px; */
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    min-width: 150px;
+    overflow-y: auto;
+    font-size: 1rem;
+    color: #1A1A1A;
+  }
+  
+  .dropdownArrow {
+    border-color: #555 transparent transparent;
+  }
+
+  .checkoutButton {
+    margin: 10px auto;
+    background-color: #1A1A1A;
+    color: #f7f7f7;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .checkoutButton:hover {
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

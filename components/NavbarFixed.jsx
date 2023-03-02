@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import Sidebar from './Sidebar'
-import styles from '@/styles/Navbar.module.css'
+import styles from '@/styles/NavbarFixed.module.css'
 
 export default function Navbar() {
 

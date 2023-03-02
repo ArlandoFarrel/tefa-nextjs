@@ -9,7 +9,7 @@ export default function Favorite() {
   return (
     <div>
       <Navbar/>
-      <img className={styles.img} src="/assets/slide-1.jpg" alt="" />
+      {/* <img className={styles.img} src="/assets/slide-1.jpg" alt="" /> */}
       <hr className={styles.hr}></hr>
       <div className={styles.product_list}>
     {productsData.map((product) => (

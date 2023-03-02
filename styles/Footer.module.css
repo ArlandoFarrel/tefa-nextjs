@@ -3,6 +3,9 @@
   padding: 1rem;
   position: relative;
   color: #F7F7F7;
+  top: 50px;
+  
+  /* border: 5px solid red; */
 }
 
 .footer_container {
