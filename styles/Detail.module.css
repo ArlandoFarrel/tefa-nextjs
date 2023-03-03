@@ -1,9 +1,7 @@
 .detailWrapper {
     margin-top: 10rem;
-    /* border: 2px solid red; */
     display: flex;
     width: 90%;
-    border: 1px solid red;
     margin: 10rem auto 5rem auto;
     /* height: 720px; */
 }
@@ -21,7 +19,6 @@
   cursor: pointer;
 }
 .detailDesc {
-    /* border: 1px solid; */
     width: 35%;
     padding: 10px;
     display: block;
@@ -32,7 +29,6 @@
 
 
 .detailDesc h1 {
-    /* border: 1px solid; */
     width: 50%;
     font-size: 2.5rem;
     text-align: left;
@@ -57,7 +53,6 @@
 }
 
 .mainCounter {
-    /* border: 1px solid #1A1A1A; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -73,17 +68,10 @@
 }
 
 .button {
-
-  /* border: 1px solid #1A1A1A; */
-  color: #1A1A1A; /* warna teks putih */
+  color: #1A1A1A; 
   padding: 5px 10px; 
-  /* text-align: center; */
   text-decoration: none;
-  /* display: inline-block; */
-  /* font-size: 16px; ukuran font 16px */
-  /* margin: 4px 2px; */
   cursor: pointer;
-  
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
@@ -91,7 +79,6 @@
     margin: 10px 0;
     align-items: center;
     /* margin-top: 0.5rem; */
-    /* border: 1px solid; */
   }
   
  .size {
@@ -103,7 +90,6 @@
     font-size: 1rem;
     padding: 0.5rem;
     border: 1px solid #1A1A1A;
-    /* border-radius: 4px; */
     background-color: #fff;
     color: #555;
     cursor: pointer;
@@ -148,10 +134,10 @@
   }
   
   .checkoutButton:hover {
-    margin: 20px auto;
+    /* margin: 20px auto; */
     background-color: #f7f7f7;
     color: #1a1a1a;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     cursor: pointer;
   }
 
@@ -164,8 +150,14 @@
   @media  screen and (max-width: 767px) {
     .detailWrapper {
         display: block;
+        /* border: 1px solid red; */
     }
     .detailDesc {
         width: 100%;
+    }
+
+    .detailImgA{
+      width: 100%;
+      height: auto;
     }
   }

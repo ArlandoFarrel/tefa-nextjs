@@ -74,7 +74,7 @@ function ProductDetail({ product }) {
          
           <button className={styles.checkoutButton}>Add to Cart</button>
         </div>
-        <Image className={styles.detailImg} src={product.image} alt={product.name} width={400} height={400} />
+        <Image className={styles.detailImgA} src={product.image} alt={product.name} width={400} height={400} />
         <div className={styles.thumbnail}>
         {product.images &&
               Object.entries(product.images ).map(([key, value]) => (
