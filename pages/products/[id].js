@@ -23,6 +23,11 @@ function ProductDetail({ product }) {
       setCounter(counter - 1)
     }
   }
+
+  const handleTrash = () => {
+    setCounter(0);
+  }
+
   //   const handleImageClick = (image) => {
   //   setCurrentImage(image)
   // }
@@ -60,8 +65,9 @@ function ProductDetail({ product }) {
             </div>
             <div className={styles.mainCounter}>
             <button className={styles.button} onClick={handleSubtract}>-</button>
-            <span>{counter}</span>
+            <span className={styles.number}>{counter}</span>
             <button className={styles.button} onClick={handleAdd}>+</button>
+            <button className={styles.resetBtn} onClick={handleTrash}>Reset</button>
             {/* <h4>Stock : {product.stock}</h4> */}
             </div>
           </div>
@@ -69,6 +75,14 @@ function ProductDetail({ product }) {
           <button className={styles.checkoutButton}>Add to Cart</button>
         </div>
         <Image className={styles.detailImg} src={product.image} alt={product.name} width={400} height={400} />
+        <div className={styles.thumbnail}>
+        {product.images &&
+              Object.entries(product.images ).map(([key, value]) => (
+                
+        <Image className={styles.detailImg} src={value} alt={product.name} width={150} height={150} />
+              ))}
+
+        </div>
       </div>
       <Footer />
     </div>

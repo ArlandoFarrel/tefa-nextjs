@@ -7,11 +7,11 @@
       "image": "/assets/img/news.jpg",
       "type": "normal",
       "stock": 40,
-      "images": [
-        "/assets/img/figs1.jpg",
-        "/assets/img/figs2.jpg",
-        "/assets/img/figsjpg.jpg"
-      ],
+      "images": {
+        "1":"/assets/img/figs1.jpg",
+        "2":"/assets/img/figs2.jpg",
+        "3":"/assets/img/figsjpg.jpg"
+      },
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Figs"
       
@@ -24,11 +24,11 @@
       "image": "/assets/img/new.jpg",
       "type": "best",
       "stock": 80,
-      "images": [
-        "/assets/img/surface1.jpg",
-        "/assets/img/surface2.jpg",
-        "/assets/img/surface3jpg.jpg"
-      ],
+      "images": {
+        "1":"/assets/img/surface1.jpg",
+        "2":"/assets/img/surface2.jpg",
+        "3":"/assets/img/surface3jpg.jpg"
+      },
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Surface"
     },
@@ -40,11 +40,11 @@
       "image": "/assets/img/coacherigo.jpg ",
       "type": "normal",
       "stock": 70,
-      "images": [
-        "/assets/img/marine1.jpg",
-        "/assets/img/marine2.jpg",
-        "/assets/img/marine3.jpg"
-      ],
+      "images": {
+        "1":"/assets/img/marine1.jpg",
+        "2":"/assets/img/marine2.jpg",
+        "3":"/assets/img/marine3.jpg"
+      },
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Asphalt"
     
@@ -87,10 +87,10 @@
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "alias": "Noxious",
       "stock": 20,
-      "images": [
-        "/assets/img/noxious1.jpg",
-        "/assets/img/noxious2.jpg",
-        "/assets/img/noxious3.jpg"
-      ]
+      "images": {
+        "1":"/assets/img/noxious1.jpg",
+        "2":"/assets/img/noxious2.jpg",
+        "3":"/assets/img/noxious3.jpg"
+      }
     }
   ]
