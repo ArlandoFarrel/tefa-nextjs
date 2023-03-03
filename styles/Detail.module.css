@@ -147,6 +147,11 @@
     align-items: center;
     flex-wrap: wrap;
   }
+  @media  screen and (max-width: 992px) {
+    .detailWrapper {
+      height: 100%;
+    }
+  }
   @media  screen and (max-width: 767px) {
     .detailWrapper {
         display: block;

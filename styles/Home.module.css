@@ -44,7 +44,11 @@
 
 }
 
-
+@media only screen and (max-width: 992px) {
+  .text {
+    display: none;
+  }
+}
 /* styles for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
   .text {

@@ -22,7 +22,11 @@
   justify-content: flex-start;
   align-items: center;
 }
-
+@media screen and (max-width: 992px) {
+  .main_footer {
+    top: 40rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .footer_container {
     flex-direction: column;
