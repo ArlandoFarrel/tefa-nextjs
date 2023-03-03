@@ -1,13 +1,13 @@
 .detailWrapper {
     margin-top: 10rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
 }
 .detailImg {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .detailDesc {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 35%;
     padding: 10px;
     display: block;
@@ -18,7 +18,7 @@
 
 
 .detailDesc h1 {
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 50%;
     font-size: 2.5rem;
     text-align: left;
@@ -134,4 +134,12 @@
     color: #1a1a1a;
     padding: 10px 20px;
     cursor: pointer;
+  }
+  @media  screen and (max-width: 767px) {
+    .detailWrapper {
+        display: block;
+    }
+    .detailDesc {
+        width: 100%;
+    }
   }

@@ -16,7 +16,7 @@
     /* overflow-y: scroll; */
 }
 .product_card {
-
+  
   width: 100%;
   /* card mengisi seluruh lebar kolom */
   max-width: 350px;
@@ -25,7 +25,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   overflow: hidden;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .product_card_image img {
@@ -71,3 +71,11 @@
   max-width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .product_card {
+    height: auto;
+  }
+  .product_card_image img {
+    height: 200px;
+  }
+}

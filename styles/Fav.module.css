@@ -117,7 +117,9 @@
    
     .product_list {
       grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
     }
+
   }
   
   /* styles for screens larger than 768px */

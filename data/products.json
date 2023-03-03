@@ -2,15 +2,15 @@
     {
       "id": 1,
       "name": "Maternal Disaster Figs Disarray",
-      "description": "Description for Product 1",
+      "description": "Multi color cotton flannel long sleeves button-ups shirt with dark blue plastic buttons and woven patch at front.",
       "price": 40,
       "image": "/assets/img/news.jpg",
       "type": "normal",
       "stock": 40,
       "images": [
-        "/assets/img/product1-1.jpg",
-        "/assets/img/product1-2.jpg",
-        "/assets/img/product1-3.jpg"
+        "/assets/img/figs1.jpg",
+        "/assets/img/figs2.jpg",
+        "/assets/img/figsjpg.jpg"
       ],
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Figs"
@@ -24,17 +24,27 @@
       "image": "/assets/img/new.jpg",
       "type": "best",
       "stock": 80,
+      "images": [
+        "/assets/img/surface1.jpg",
+        "/assets/img/surface2.jpg",
+        "/assets/img/surface3jpg.jpg"
+      ],
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Surface"
     },
     {
       "id": 3,
       "name": "Erigo Coach Jacket Marine Corps Asphalt",
-      "description": "Description for Product 3",
+      "description": "Marine Corps Coach Jacket with high quality materials so comfortable to wear",
       "price": 100,
       "image": "/assets/img/coacherigo.jpg ",
       "type": "normal",
       "stock": 70,
+      "images": [
+        "/assets/img/marine1.jpg",
+        "/assets/img/marine2.jpg",
+        "/assets/img/marine3.jpg"
+      ],
       "sizes": ["S", "M", "L", "XL"],
       "alias": "Asphalt"
     
@@ -42,7 +52,7 @@
     {
       "id": 4,
       "name": "Erigo T-Shirt Oversizes Basic Pocket Dark Color",
-      "description": "Description for Product 2",
+      "description": "Plain Basic Pocket t-shirt with a soft and comfortable fabric from Erigo",
       "price": 30,
       "image": "/assets/img/tshirter.jpg",
       "type": "normal",
@@ -53,7 +63,7 @@
     {
       "id": 5,
       "name": "Roughneck Green Varsity",
-      "description": "Description for Product 2",
+      "description": "Roughneck VB027 Army Green R 91 Star Varsity Jacket",
       "price": 20,
       "image": "/assets/img/varsity1.png",
       "type": "normal",
@@ -76,6 +86,11 @@
       "type": "best",
       "sizes": ["S", "M", "L", "XL", "XXL"],
       "alias": "Noxious",
-      "stock": 20
+      "stock": 20,
+      "images": [
+        "/assets/img/noxious1.jpg",
+        "/assets/img/noxious2.jpg",
+        "/assets/img/noxious3.jpg"
+      ]
     }
   ]

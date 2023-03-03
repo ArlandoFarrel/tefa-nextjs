@@ -22,19 +22,21 @@ export default function About() {
         </h2>
         <div className={styles.main_service}>
           <p>
-            lokal is a gripping and unconventional clothing brand based in Bandung since 2003. Represents not only a more refined and forward-thinking brand, we reflect our each issues like a musical albums and every articles is like a song we write.
+          Kami adalah sebuah usaha yang fokus pada reseller brand lokal berkualitas. Kami percaya bahwa brand lokal memiliki potensi besar untuk berkembang dan bersaing di pasar fashion nasional dan internasional.
 
-            Driven by the dream-quest of demon force that bore black mass hysteria, a carnal beast, living in a cosmos that is indifferent to our existence. lokal is dangerous flame of brand that seemed lost for many years and that now once again has been set loose upon everyday society & to decipher the world objectively.
+Kami berkomitmen untuk menyediakan produk-produk terbaik dari brand lokal yang kami pilih dengan cermat, sehingga pelanggan kami dapat menemukan barang yang berkualitas dengan harga yang terjangkau.
+
+Selain itu, kami juga bekerja sama dengan brand lokal untuk mengembangkan desain yang sesuai dengan kebutuhan pelanggan kami, dan membantu brand lokal untuk meningkatkan kualitas produk dan pemasaran mereka.
+
 
           </p>
-          <p> Four young devils were brought together by our passion for music.
-              Our first love has always been and will always be music,
-              we try to give back to our roots through the products and opportunities we 
-              provide through the company. We remains extremely involved in the production 
-              and direction of lokal, maintaining the respect over communities 
-              we continue to support our friends, which helps us fuel and inspire our original vision. 
-              Our goal for lokal is to evoke emotions then create topics of discussion through our designs and boldly stated our idea at the hand of youth culture.</p>
-        </div>
+          <p> Kami sangat memperhatikan kualitas layanan dan kepuasan pelanggan kami. Oleh karena itu, kami selalu berusaha memberikan pengalaman belanja yang nyaman dan mudah bagi pelanggan kami, serta memberikan layanan yang ramah dan profesional.
+
+Kami juga peduli dengan lingkungan dan keberlanjutan. Oleh karena itu, kami berusaha untuk mengurangi dampak lingkungan dari kegiatan kami, dan mempromosikan praktik-praktik yang berkelanjutan dalam industri fashion.
+
+Terima kasih telah memilih kami sebagai mitra belanja Anda. Silakan kunjungi toko kami untuk melihat koleksi kami dan jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau saran. Kami berharap dapat terus memberikan layanan yang terbaik dan terus mengembangkan usaha kami bersama Anda.   
+    </p>
+     </div>
       </div>
       <Footer />
     </div>
