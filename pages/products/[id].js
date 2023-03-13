@@ -89,18 +89,38 @@ function ProductDetail({ product }) {
   )
 }
 
-export async function getStaticPaths() {
-  const paths = productsData.map((product) => ({
-    params: { id: product.id.toString() },
-  }))
+// export async function getStaticPaths() {
+//   const paths = productsData.map((product) => ({
+//     params: { id: product.id.toString() },
+//   }))
 
-  return { paths, fallback: false }
+//   return { paths, fallback: false }
+// }
+
+// export async function getStaticProps({ params }) {
+//   const product = productsData.find((p) => p.id.toString() === params.id)
+
+//   return { props: { product } }
+// }
+// ----
+export async function getStaticPaths() {
+  try {
+    const paths = await productsData.map((product) => ({
+      params: { id: product.id.toString() },
+    }));
+    return { paths, fallback: false };
+  } catch (error) {
+    console.log("Error Cuy");
+  }
 }
 
 export async function getStaticProps({ params }) {
-  const product = productsData.find((p) => p.id.toString() === params.id)
-
-  return { props: { product } }
+  try {
+    const product = await productsData.find((product) => product.id.toString() === params.id);
+    return { props: { product } };
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 export default ProductDetail
